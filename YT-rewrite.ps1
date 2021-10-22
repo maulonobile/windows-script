@@ -1,5 +1,9 @@
-# https://youtu.be/1hmrseO_8eg
-# https://www.youtube.com/watch?v=1hmrseO_8eg
+#########################################################################
+# Usage: .\YT-rewrite.ps1 YT-URL
+# Mandatory: yt-dl and ffmpeg exec in the same folder
+#########################################################################
+
+write-host "YT-rewrite for download audio and mp3 conversion"
 
 $link=$args[0]
 write-host $link
