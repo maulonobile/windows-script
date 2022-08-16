@@ -11,6 +11,7 @@ $rewrite=$link.replace('https://www.youtube.com/watch?v=','https://youtu.be/')
 
 write-host $rewrite
 
-.\youtube-dl.exe $rewrite -f bestaudio -x --audio-format mp3 --audio-quality 5
+# .\youtube-dl.exe $rewrite -f bestaudio -x --audio-format mp3 --audio-quality 5
+.\yt-dlp.exe $rewrite -f bestaudio -x --audio-format mp3 --audio-quality 5
 
 write-host "Amo firnuto!"
