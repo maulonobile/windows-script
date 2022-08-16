@@ -1,6 +1,6 @@
 #########################################################################
 # Usage: .\YT-rewrite.ps1 YT-URL
-# Requirements: yt-dlp and ffmpeg exec in the same folder
+# Requirements: yt-dlp and ffmpeg bins/exec in the same folder
 #########################################################################
 
 write-host "YT-rewrite for download audio and mp3 conversion"
@@ -14,4 +14,4 @@ write-host $rewrite
 # .\youtube-dl.exe $rewrite -f bestaudio -x --audio-format mp3 --audio-quality 5
 .\yt-dlp.exe $rewrite -f bestaudio -x --audio-format mp3 --audio-quality 5
 
-write-host "Mission accomplished!"
+write-host "THE END!"

@@ -1,10 +1,9 @@
 # windows-script
 ## Windows script and misc test
 Description:
-* YT-extract.cmd: download audio and mp3 conversion with yt-dlp and ffmpeg
-* YT-rewrite.ps1: powershell script, fix for rewriting url with yt-dlp
-* Java8 launcher: setta la home di Java 8
-* Java11 launcher: setta la home di Java 11
-* reduceJpeg: comprime le foto dello smartphone dimezzando la risoluzione
-* reduceMp4: comprime i video dello smartphone con bitrate a 2M ma stessa risoluzione
-
+* YT-extract.cmd: download audio (yt-dlp) and mp3 conversion (ffmpeg same folder)
+* YT-rewrite.ps1: powershell script, rewite url for yt-dlp
+* Java8 launcher: Java8 home setting
+* Java11 launcher: Java11 home setting
+* reduceJpeg: photo compression, half resolution (ffmpeg)
+* reduceMp4: video compression, same resolution but 2M bitrate (ffmpeg)
